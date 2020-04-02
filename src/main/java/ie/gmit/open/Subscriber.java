@@ -1,5 +1,7 @@
 package ie.gmit.open;
-
+//Abstract class to hold subscribers instances and calculateBill method
+//Renan Moraes
+//24/03/2020
 public abstract class Subscriber {
 
     private Long subscriberId;
@@ -8,7 +10,7 @@ public abstract class Subscriber {
     private int baseRate;
 
 
-    abstract double calculateBill();
+    public abstract double calculateBill();
 
     public Long getSubscriberId() {
         return subscriberId;

@@ -12,7 +12,6 @@ public class UserController {
 
         //Store used by controller
         private StorageService store = new StorageService();
-        //private Store store = new Store();
         //Validates user inputs
         private Validation validation = new Validation();
 
