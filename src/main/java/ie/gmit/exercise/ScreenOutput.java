@@ -7,5 +7,6 @@ public class ScreenOutput implements Printable {
     public void writeFormat(String fileName,Formatter formatter, Message msg) throws IOException {
         System.out.println("File" + fileName);
         System.out.println(formatter.format(msg));
+        System.out.println("Testing GITHUB workflow");
     }
 }
